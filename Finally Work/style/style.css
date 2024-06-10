@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.nav_ell {
+  box-sizing: border-box;
+  width: 32px;
+}
+
+.nav_contact {
+  height: 38px;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 115px;
+}
+
+.header_text {
+  width: 50%;
+}
+
+.header_text h1 {
+  font-size: 64px;
+  line-height: 74px;
+  font-weight: 300;
+  color: rgba(31, 63, 104, 1);
+}
+
+.header_text p {
+
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: rgba(31, 63, 104, 1);
+  opacity: 0.7;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.header_text button {
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-top: 70px;
+  width: 220px;
+  height: 56px;
+}
+
+/* Digital */
+
+.mainword {
+
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 300;
+  margin: 35px 0;
+}
+
+.digital_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.digital_block {
+  width: 31%;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.digital_img {
+  display: flex;
+  justify-content: center;
+  margin: 45px 0;
+}
+
+.digital_toptext {
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px 40px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(31, 63, 104, 1);
+}
+
+.digital_downtext {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 40px 35px 40px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: rgba(31, 63, 104, 1);
+}
+
+.digital_link {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 40px 35px 40px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(90, 152, 208, 1);
+  text-decoration: none;
+}
+
+/* Project */
+
+.project_toptext {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  opacity: 0.7;
+  color: rgba(34, 34, 34, 1);
+}
+
+.project_fimg {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.project_fimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.project_fimg::before {
+  content: "Smart Home Installation";
+  position: absolute;
+  top: 65px;
+  right: 76px;
+  color: white;
+  z-index: 100;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.project_fimg::after {
+  border-radius: 10px;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+  opacity: 0.8;
+}
