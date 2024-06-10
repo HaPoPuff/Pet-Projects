@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header_logo {
+  position: absolute;
+  word-spacing: 50px;
+  font-size: 30px;
+  font-family: Georgia;
+  font-style: italic;
+  padding: 50px 0 0 0;
+  color: #50372b;
+}
+
+.header_logo h1 {
+  font-weight: normal;
+}
+
+.header_text {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 27px 110px 0 0;
+  line-height: 40px;
+
+}
+
+.header_text p {
+  opacity: 0.4;
+}
+
+.header_text img {
+  width: 166px;
+  height: 170px;
+  padding: 0 0 20px 0;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2823b;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0 15px 0;
+  color: white;
+
+
+}
+
+.header_nav a:active,
+.header_nav a:hover,
+.header_nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+
+main {
+  background-color: #eeeeee;
+}
+
+.main_first {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+  line-height: 20px;
+}
+
+.main_text {
+  width: 60%;
+}
+
+.main_text h2 {
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  color: #50372b;
+}
+
+.main_text p {
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+  margin: 0 40px 0 0;
+}
+
+.main_border {
+  width: 1200px;
+  margin: 20px auto;
+  border-left: none;
+}
+
+.main_second {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main_borderTwo {
+  width: 1200px;
+  margin: 30px auto;
+  border-left: none;
+  border: 5px solid gray;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_logo h3 {
+  font-family: Georgia;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  color: gray;
+}
+
+.footer_text {
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.5;
+  margin: 0 0 40px 0;
+  font-size: 10px;
+}
