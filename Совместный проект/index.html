@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tattoo Vulf</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- modal -->
+	<div class="modal__wrap" id="reg-modal">
+		<div class="modal__content">
+			<img src="./img/close.png" alt="close" class="modal-close" />
+			<h1 class="header-logo">TATTOO VULF</h1>
+			<p class="modal-title">Ваша заявка принята!</p>
+			<p class="modal-text">В ближайшее время мы с Вами свяжемся!</p>
+			<button class="modal-button">ОК</button>
+		</div>
+	</div>
+
+
+	<!-- modal ends -->
+
+	<!-- header section -->
+	<header class="header" id="header">
+		<!-- bg img -->
+		<div class="boxsvg">
+			<img src="./img/woman.svg" class="svg" alt="woman" />
+		</div>
+
+		<div class="header-box">
+			<div class="container">
+
+				<h1 class="header-logo">TATTOO VULF</h1>
+
+				<div class="header-phone">
+					<img src="img/geo.png" alt="adress" />
+					<a href="#" class="adress">г. Иркутск, Джамбула 2Б</a>
+					<img src="img/header-phone.png" alt="phone" />
+					<a href="#consult" class="phone">+7 950 070-28-42</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="header-menu">
+			<div class="container">
+				<a href="#aboutus" class="header-link">О нас</a>
+				<a href="#gallery" class="header-link">Галерея</a>
+				<a href="#team" class="header-link">Команда</a>
+				<a href="#" class="header-link">Акции</a>
+				<a href="#" class="header-link">Отзывы</a>
+				<a href="#" class="header-link">Вопросы</a>
+				<a href="#contacts" class="header-link">Контакты</a>
+			</div>
+		</div>
+
+
+		<section class="container">
+			<div class="header-wrap">
+				<div class="header-content">
+					<div class="title-box">
+						<div class="header-title">
+							<h1 class="headline-title">Бьем</h1>
+							<h1 class="header-subtitle">значит любим!</h1>
+							<form action="#consult">
+								<button class="header-btn">Записаться</button>
+							</form>
+						</div>
+						<div class="header-icons">
+							<div class="social-icons">
+								<a class="social-icon" href="https://www.instagram.com/tattoo_vulf" title="..."
+									target="_blank" rel="noopener"><img src="./img/i-inst.svg" alt="instagram" /></a>
+
+								<a class="social-icon" href="https://vk.com/public_vulf" title="..." target="_blank"
+									rel="noopener"><img src="./img/i-vk.svg" alt="vk" /></a>
+
+								<a class="social-icon"
+									href="https://api.whatsapp.com/send/?phone=79500702842&text&type=phone_number&app_absent=0"
+									title="..." target="_blank" rel="noopener"><img src="./img/i-wa.svg"
+										alt="whatsapp" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	<!-- header section ends -->
+
+	<main>
+		<!-- aboutus section -->
+		<section class="aboutus-section" id="aboutus">
+			<div class="line">
+				<h2 class="title">О нас</h2>
+			</div>
+			<div class="container">
+				<div class="section">
+					<div class="about-wrap">
+						<div class="about-img">
+							<img class="img" src="./img/stidio.png" alt="" />
+						</div>
+						<div class="about-content">
+							<h3><span>Наши услуги:</span></h3>
+							<ul class="services-list about-list">
+								<li>
+									<span class="text_list">нанесение татуировок любой сложности;</span>
+								</li>
+								<li>
+									<span class="text_list">коррекция и исправлние старых работ;</span>
+								</li>
+								<li>
+									<span class="text_list">перекрытие шрамов и некачественных татуировок</span>
+								</li>
+							</ul>
+							<h3><span>Наши преимущества:</span></h3>
+							<ul class="benefits-list about-list">
+								<li>
+									<span class="text_list">профессиональные, одноразовые расходные материалы;</span>
+								</li>
+								<li><span class="text_list">гипоаллергенные краски</span></li>
+								<li>
+									<span class="text_list">стерильное оборудование</span>
+								</li>
+							</ul>
+							<p>
+								<span>Студия принимает гостей ежедневно с 11:00 до 22:00
+									<br />(исключительно по предварительной записи)</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- aboutus section end -->
+
+		<!-- galary section -->
+		<div class="container-gallery" id="gallery">
+			<div class="line">
+				<h2 class="title">Галерея</h2>
+			</div>
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="gallery-photo">
+							<div class="top-photo">
+								<img class="photo-1" src="./img/picture1.png" alt="фото" />
+								<img class="photo-2" src="./img/picture2.png" alt="фото" />
+								<img class="photo-3" src="./img/picture3.png" alt="фото" />
+								<img class="photo-4" src="./img/picture4.png" alt="фото" />
+								<img class="photo-5" src="./img/picture5.png" alt="фото" />
+								<img class="photo-6" src="./img/picture6.png" alt="фото" />
+								<img class="photo-7 photo-right" src="./img/picture7.png" alt="фото" />
+								<img class="photo-8 photo-right" src="./img/picture8.png" alt="фото" />
+								<img class="photo-9 photo-right" src="./img/picture9.png" alt="фото" />
+							</div>
+
+							<div class="down-photo"></div>
+
+							<div class="button-arrow"></div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="gallery-photo">
+							<div class="top-photo">
+								<img class="photo-1" src="./img/picture10.png" alt="фото" />
+								<img class="photo-2" src="./img/picture11.png" alt="фото" />
+								<img class="photo-3" src="./img/picture12.png" alt="фото" />
+								<img class="photo-4" src="./img/picture13.png" alt="фото" />
+								<img class="photo-5" src="./img/picture14.png" alt="фото" />
+								<img class="photo-6" src="./img/picture15.png" alt="фото" />
+								<img class="photo-7 photo-right" src="./img/picture16.png" alt="фото" />
+								<img class="photo-8 photo-right" src="./img/picture17.png" alt="фото" />
+								<img class="photo-9 photo-right" src="./img/picture18.png" alt="фото" />
+							</div>
+
+							<div class="down-photo"></div>
+
+							<div class="button-arrow"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="btn_swiper">
+					<a href="#" class="prev"><img class="btn_prev" src="./img/left.png" alt="button-arrow" /></a>
+					<a href="#" class="next"><img class="btn_next" src="./img/right.png" alt="button-arrow" /></a>
+
+				</div>
+			</div>
+
+
+		</div>
+		<!-- galary section ends -->
+
+
+
+
+		<section class="team-section" id="team">
+			<div class="line">
+				<h2 class="title">Команда</h2>
+			</div>
+
+
+			<div class="container">
+
+
+				<div class="team-box">
+
+					<div class="team-card">
+						<div class="team-box-name">
+							<h3 class="team-name">Анастасия</h3>
+						</div>
+						<img class="picture" src="./img/anastasia.png" alt="anastasia">
+						<ul class="team-item">
+							<li>Блэкворк</li>
+							<li>Графика</li>
+							<li>Скетч стайл</li>
+							<li>и другие стили</li>
+						</ul>
+						<button class="card-btn openModalAnastasia" id="btnportfolio">Портфолио</button>
+					</div>
+
+					<div class="team-card">
+						<div class="team-box-name">
+							<h3 class="team-name">Дмитрий</h3>
+						</div>
+						<img class="picture" src="./img/dmitriy.png" alt="dmitriy">
+						<ul class="team-item">
+							<li>Чикано</li>
+							<li>Япония</li>
+							<li>Реализм</li>
+							<li>и другие стили</li>
+						</ul>
+						<button class="card-btn">Портфолио</button>
+					</div>
+
+					<div class="team-card">
+						<div class="team-box-name">
+							<h3 class="team-name">Татьяна</h3>
+						</div>
+						<img class="picture" src="./img/tatiana.png" alt="tatiana">
+						<ul class="team-item">
+							<li>Дотворк</li>
+							<li>Минимализм</li>
+							<li>Леттеринг</li>
+							<li>и другие стили</li>
+						</ul>
+						<button class="card-btn">Портфолио</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="container">
+			<div id="portfolio-modal" class="modalAn">
+				<div class="modal-team">
+					<div class="modal-anastasia">
+						<img src="./img/anastasiamodal.png" alt="anastasiamodal">
+						<div class="modal-anastasia-text">
+							<h2>Анастасия</h2>
+							<p class="anastasia-text">Тату-мастер без тату, считает, что человеческое тело - это холст,
+								который надо
+								украшать.
+
+								Стили работы: дотворк, блэкворк, орнаментал, маори, трайбл, полинезия, графика, скетч
+								стайл,
+								реализм
+
+								Любимый стиль: блэкворк, скетч стайл, графика</p>
+						</div>
+
+						<div class="anastasia-experience">
+							<h1 class="modal-h1">5</h1>
+							<p class="modal-text1">лет опыта</p>
+							<h1 class="modal--h1">350+</h1>
+							<p class="modal--text">выполненных работ</p>
+						</div>
+						<div class="imgmodal">
+							<img src="./img/closemodal.png" alt="close" class="close-modal" id="close_modal">
+						</div>
+					</div>
+					<div class="modal-photos">
+						<img src="./img/modal1.png" alt="">
+						<img src="./img/modal2.png" alt="">
+						<img src="./img/modal3.png" alt="">
+						<img src="./img/modal4.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container1">
+			<div class="box-modal">
+
+				<div class="modal-img">
+					<img class="modal-png" src="./img/dima.png" alt="dima">
+				</div>
+
+				<div class="modal-wrap-text">
+					<h3 class="title-name">Дмитрий</h3>
+					<p class="work-text">Топ мастер <span class="span">5 лет художественной школы, 4 года</span> <span
+							class="span">академического рисунка, 3 года академической</span>
+						живописи, 2 года скульптуры.
+					</p>
+					<div class="modal-wrap">
+						<p class="work-text">
+							<span class="work-description">Стили работы:</span>все без исключений
+						</p>
+						<p class="work-text">
+							<span class="work-description">Любимый стиль:</span>ликано, япония, реализм
+						</p>
+					</div>
+				</div>
+
+				<div class="modal-exp">
+					<img class="item-exit" src="./img/exit.svg" alt="exit">
+					<h1 class="work-title">15</h1>
+					<p class="work-info">лет опыта</p>
+					<h1 class="work-title">5 000+</h1>
+					<p class="work-info">выполненных работ</p>
+				</div>
+
+				<div class="box-wrap">
+					<img class="work-img" src="./img/akula.png" alt="akula">
+					<img class="work-img" src="./img/smail.png" alt="smail">
+					<img class="work-img" src="./img/kot.png" alt="kot">
+					<img class="work-img" src="./img/lico.png" alt="lico">
+				</div>
+
+				<div class="modal-link">
+					<a href="#" class="modal-btn">Смотреть все</a>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- 2МОДАЛКА -->
+		<div class="container1">
+
+			<div class="box-modal">
+
+				<div class="modal-img">
+					<img class="modal-png" src="./img/tanya.png" alt="tanya">
+				</div>
+
+				<div class="modal-wrap-text">
+					<h3 class="title-name">Татьяна</h3>
+					<p class="work-text">Самый татуированный мастер в нашей команде,
+						<span class="span">на её теле больше 20 татуировок и все достались</span> <span class="span"> ей
+							бесплатно.</span>
+					</p>
+					<div class="modal-wrap">
+
+						<p class="work-text">
+							<span class="work-description">Стили работы:</span>дотворк, минимализм, лайнворк,
+							трайбл, полинезия,
+							графика,
+							леттеринг (надписи)
+						</p>
+						<p class="work-text">
+							<span class="work-description">Любимый стиль:</span>леттеринг, графика
+						</p>
+					</div>
+				</div>
+				<div class="modal-exp">
+					<img class="item-exit" src="./img/exit.svg" alt="exit">
+					<h1 class="work-title">9</h1>
+					<p class="work-info">лет опыта</p>
+					<h1 class="work-title">3 000+</h1>
+					<p class="work-info">выполненных работ</p>
+				</div>
+			</div>
+
+			<div class="box-wrap">
+				<img class="work-img" src="./img/tanya-lev.png" alt="lev">
+				<img class="work-img" src="./img/tanya-zmeya.png" alt="zmeya">
+				<img class="work-img" src="./img/tanya-dusa.png" alt="medusa">
+				<img class="work-img" src="./img/tanya-nogi.png" alt="noga">
+			</div>
+
+			<div class="modal-link">
+				<a href="#" class="modal-btn">Смотреть все</a>
+
+			</div>
+
+		</div>
+		<!-- team ends-->
+
+
+		<!-- Certificate section -->
+
+		<div class="certificate-section" id="certificate">
+			<!-- <div class="img_background2">
+			<img src="img/Дым акции+сертификаты.png" alt="" />
+		  </div>
+		  <div class="img_background1">
+			<img src="img/дым сертификатов.png" alt="" />
+		  </div> -->
+			<div class="line">
+				<h2 class="title">Подарочные сертификаты</h2>
+			</div>
+
+			<div class="main__certificate">
+				<div class="container">
+					<div class="certificate__text">
+						<p class="certificate__text1">
+							Сертификат - это оригинальный подарок на <br />
+							любой праздник для близких и друзей.
+						</p>
+
+						<p class="certificate__text2">
+							Сертификат можно приобрести в электронном <br />
+							виде на сайте, а также в <br />
+							печатном виде у нас в салоне.
+						</p>
+
+						<p class="certificate__text3">
+							Номинал сертификата от 1000 рублей <br />
+							<small> (сумма должна быть кратной 500)</small>
+						</p>
+
+						<p class="certificate__text4">
+							Срок действия сертификата: 3 месяца с <br />
+							момента покупки
+							<small> (исключения оговариваются лично)</small>
+						</p>
+						<form
+							action="https://api.whatsapp.com/send/?phone=79500702842&text&type=phone_number&app_absent=0"
+							target="_blank">
+							<button class="certificate__btn">Купить</button>
+						</form>
+
+					</div>
+					<div class="certificate_img__block">
+						<img class="certificate_img" src="./img/certificate.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Certificate section ends-->
+
+
+		<!-- Consultation section -->
+		<div class="background consultation-section">
+			<!-- img -->
+			<div class="consultation-photo">
+				<img src="img/girl.png" alt="girl" class="girl-img" />
+			</div>
+			<!-- title -->
+			<div class="line">
+				<h2 class="title">Записаться на консультацию</h2>
+			</div>
+
+			<div class="container" id="consult">
+				<div class="consultation">
+					<div class="consultation-content">
+						<div class="consultation-form">
+							<p class="form-subtitle">
+								Рассчитаем стоимость татуировки и индивидуально
+								подберём мастера под желаемый стиль!
+							</p>
+							<form action="#">
+								<p class="form-text">Имя<span class="star">*</span></p>
+								<input type="text" class="form-name" required />
+								<p class="form-text">Телефон<span class="star">*</span></p>
+								<input type="number" class="form-phone" required />
+								<p class="form-text">Комментарий</p>
+								<textarea maxlength="400" placeholder="(0/400)" style="resize: none" id="#" cols="30"
+									rows="5" class="form-comment"></textarea>
+								<div>
+									<input type="checkbox" class="checkbox" id="checkbox" required />
+									<label for="checkbox" class="label">
+										Мне есть 18 лет и я ознакомлен <a
+											href="https://docs.google.com/document/d/10H1sfZYIDW_eJKui1ji2SkyObqyflI5NbR_1uUfIQTU/edit"
+											target="_blank">с
+											условиями обработки моих
+											персональных данных</a> при получении услуг
+										Компании</label>
+								</div>
+
+							</form>
+							<form action="#">
+								<button type="submit" class="consultation-btn openModal" data-modal="#reg-modal">
+									Записаться
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Consultation section ends -->
+
+
+		<!-- Contacts section -->
+
+		<div id="contacts">
+			<div class="line">
+				<h2 class="title">Контакты</h2>
+			</div>
+			<div class="container">
+				<div class="contacts">
+					<div class="contacts-info">
+
+						<div class="formastext">
+
+							<h3 class="h3">Адрес</h3>
+							<p class="text">г.Иркутск, Джамбула 2Б</p>
+							<h3 id="line" class="h3">Телефон</h3>
+							<p class="text">+7(950)070-28-42</p>
+							<h3 class="h3" id="line">Время работы</h3>
+							<p class="text">Ежедневно с 11.00 - 22.00 (по предварительной записи)</p>
+							<h3 id="line" class="h3 contacts-line">На связи</h3>
+							<div class="social-icons-contacts">
+								<a href="https://www.instagram.com/tattoo_vulf" target="_blank">
+									<img src="./img/i-inst.svg" alt="instagram" class="icon">
+								</a>
+								<a href="https://vk.com/public_vulf" target="_blank">
+									<img src="./img/i-vk.svg" alt="vk" class="icon-vk">
+								</a>
+								<a href="https://api.whatsapp.com/send/?phone=79500702842&text&type=phone_number&app_absent=0"
+									target="_blank">
+									<img src="./img/i-wa.svg" alt="whatsapp" class="icon">
+								</a>
+							</div>
+							<h3 id="line" class="h3">Для сотрудничества</h3>
+							<p class="text">Спонсорский пакет</p>
+						</div>
+						<div class="contacts-map">
+							<img class="img_carta" src="./img/carta.png" alt="">
+							<a href="https://ru.wikipedia.org">
+								<img src="./img/geo.png" alt="geo">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+
+
+	</main>
+	<!-- Contacts section ends -->
+
+	<!-- Footer section -->
+	<footer>
+		<div class="container-footer">
+
+
+			<div class="footer-menu">
+				<ul>
+					<li><a href="#aboutus" class="footer-link">О нас</a></li>
+					<li><a href="#gallery" class="footer-link">Галерея</a></li>
+					<li><a href="#team" class="footer-link">Команда</a></li>
+					<li><a href="#" class="footer-link">Акции</a></li>
+					<li><a href="#" class="footer-link">Отзывы</a></li>
+					<li><a href="#certificate" class="footer-link">Подарочные сертификаты</a></li>
+				</ul>
+
+			</div>
+
+
+			<div class="fi">
+				<a href="#header">
+					<img class="footer-img" src="./img/logo-footer.png" alt="Vulf">
+				</a>
+			</div>
+
+
+			<div class="inf">
+				<div class="pay-text">
+
+					<p class="pay">Оплата: перевод/наличный расчет</p>
+
+
+					<div class="doc">
+						<a href="https://docs.google.com/document/d/11DddP2BIqeQVDy3DEWecP6aMfEykmHLwMl3Togjtonk/edit"
+							class="doc-link" target="_blank">Пользовательское соглашение</a>
+						<a href="https://docs.google.com/document/d/10H1sfZYIDW_eJKui1ji2SkyObqyflI5NbR_1uUfIQTU/edit"
+							class="doc-link" target="_blank">Политика конфиденциальности</a>
+					</div>
+
+					<div class="sprint">
+						<p>2023 © Все права защищены</p>
+						<p>Разработано командой 7 потока 1Т Спринт</p>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</footer>
+	<!-- Footer section ends -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
