@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.wrap{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: normal;
+    line-height: 36px;
+    color: #445161;
+    font-size: 36px;
+}
+
+/* Product */
+
+.product-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product{
+    background-color: #445161;
+    color: white;
+    padding: 20px 0;
+}
+
+.product-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 60px;
+}
+
+.product-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 35px;
+    background-image: url(../img/check-solid.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+}
+
+.product-list{
+    margin-bottom: 20px;
+}
+
+/* About */
+
+.about{
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.about-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title{
+    text-align: left;
+}
+
+.about-desc{
+    font-size: 16px;
+    line-height: 25px;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 650px;
+}
+
+
+/* Pluses */
+
+.pluses{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.pluses-title{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #445161;
+}
+
+.pluses-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.pluses-list__item{
+    position: relative;
+    list-style: none;
+    width: 500px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.pluses-list__item::before{
+    position: absolute;
+    content: '';
+    background-image: url(../img/square-plus-solid.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    left: -45px;
+    top: 5px;
+}
+.pluses-title{
+    color: #445161;
+}
+
+/* Screen */
+
+.screen{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.screen-title{
+    color: #445161;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.figure-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+.fig{
+    width: 560px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.fig-img{
+    width: 200px;
+    height: 180px;
+}
+
+.fig-desc__title{
+    font-size: 24px;
+    color: #445161;
+    margin-bottom: 15px;
+}
+.fig-desc__text{
+    line-height: 25px;
+}
+
+/* Reviews */
+
+.reviews{
+    border-top: 1px solid grey;
+    background-color: #f5f5f5;
+    padding-bottom:30px;
+    border-bottom: 1px solid grey;
+}
+
+.reviews-title{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: #445161;
+}
+
+.reviews-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.reviews-list__item{
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.comments-text{
+    font-style: italic;
+    line-height: 25px;
+}
+
+.comments{
+    border-radius: 5px;
+    position: relative;
+    background-color: #ebebeb;
+    width: 490px;
+    height: 100px;
+    padding: 15px 10px;
+}
+
+.comments-name{
+    font-size: 15px;
+    color: #b2b2b2;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+/* BUY */
+
+.buy{
+    margin-top:35px;
+    margin-bottom: 20px;
+    color: #445161;
+}
+
+.buy-title{
+    text-align: center;
+}
+
+.buy-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.price{
+    background-color: #fff;
+    margin: 0 2px;
+    color: #445161;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+}
+.buy-list__item{
+    border-radius: 5px;
+    list-style: none;
+    width:200px;
+    background-color: #445161;
+    padding-bottom: 10px;
+}
+
+.option-title{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.advantages-list{
+    color: white;
+    font-size: 10px;
+    padding: 10px 30px;
+    line-height: 18px;
+}
+
+.buy-btn{
+    background-color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+/* Contacts */
+
+.contacts{
+    margin-bottom: 15px;
+    background-color: #445161;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.contacts-title{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+input, #textarea{
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#text, #email{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#textarea{
+    resize: none;
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.accounts-list{
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.accounts-list__item{
+    position: relative;
+}
+
+.link{
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.acc_icon{
+    width: 20px;
+    height: 20px;
+    background-color: #445161;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+/* Footer */
+
+.footer{
+    border-top: 1px solid grey;
+    height: 50px;
+    background-color: #f5f5f5;
+}
+
+.copyright{
+    color: #445161;
+    font-size: 15px;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
